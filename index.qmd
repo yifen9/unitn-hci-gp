@@ -1,0 +1,9 @@
+---
+listing:
+  filter-ui: [date, title]
+  sort-ui: [date, title]
+  categories: true
+  contents: posts
+  feed: true
+  sort: "date desc"
+---

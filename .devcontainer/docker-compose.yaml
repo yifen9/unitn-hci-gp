@@ -1,0 +1,11 @@
+services:
+  unitn-hci-gp-dev:
+    image: ghcr.io/yifen9/unitn-hci-gp-dev
+    container_name: unitn-hci-gp-dev
+    working_dir: /workspace
+    volumes:
+      - "..:/workspace"
+    command: >
+      bash -lc "
+        exec sleep infinity
+      "
