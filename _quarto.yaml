@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: build
+
+website:
+  title: "Li Yifeng's Blog"
+  site-url: "https://blog.yifen9.li"
+  description: "Li Yifeng's Blog"
+  repo-url: https://github.com/yifen9/blog.yifen9.li
+  navbar:
+    search: true
+    left:
+      - text: Home
+        href: index.qmd
+    right:
+      - icon: person
+        href: https://yifen9.li
+      - icon: github
+        href: https://github.com/yifen9/blog.yifen9.li
+      - icon: rss
+        href: index.xml
+      
+  page-footer:
+    center: |
+      <p align="center">
+        <img src="https://counter.clarelab.moe/@www-yifeng-li?name=www-yifeng-li&theme=sketch-1&padding=8&offset=0&align=top&scale=0.2&pixelated=1&darkmode=0" alt=":counter" />
+      </p>
+      <p align="center">
+        © {{< now year >}} <a href="https://yifen9.li">Li Yifeng</a>
+      </p>
+      <p align="center">
+        <a href="https://github.com">GitHub</a> &amp;
+        <a href="https://quarto.org">Quarto</a>
+      </p>
+
+format:
+  html:
+    theme: cosmo

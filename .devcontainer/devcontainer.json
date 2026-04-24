@@ -1,6 +1,6 @@
 {
   "dockerComposeFile": "docker-compose.yaml",
-  "service": "blog.yifen9.li-dev",
+  "service": "unitn-hci-gp-dev",
   "workspaceFolder": "/workspace",
   "shutdownAction": "stopCompose",
   "customizations": {
