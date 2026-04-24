@@ -1,0 +1,8 @@
+---
+title: "Hello, World!"
+date: "2025-09-20"
+date-modified: last-modified
+categories: [meta]
+---
+
+From now I have my own Blog.
